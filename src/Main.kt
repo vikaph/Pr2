@@ -1,7 +1,6 @@
 fun main() {
     println("Введите строку:")
     val input = readLine() ?: ""
-
     // Подсчет символов
     val charCount = mutableMapOf<Char, Int>()
 
